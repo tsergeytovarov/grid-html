@@ -3,22 +3,34 @@
 =====================*/
 
 @font-face {
-  font-family: "Intro";
-  font-weight: 400;
+  font-family: "Proxima-bold";
+  font-weight: normal;
   font-style: normal;
 
-  src: local("Intro"),
-  url("../font/intro.woff2") format("woff2"),
-  url("../font/intro.woff") format("woff"),
-  url("../font/intro.ttf") format("truetype");
+  src: local("Proxima-bold"),
+  url("../font/proxima_nova_bold-webfont.woff2") format("woff2"),
+  url("../font/proxima_nova_bold-webfont.woff") format("woff"),
+  url("../font/proxima_nova_bold-webfont.ttf") format("truetype");
 }
 
-$base-font: Arial, sans-serif;
+@font-face {
+  font-family: "Proxima";
+  font-weight: normal;
+  font-style: normal;
+
+  src: local("Proxima"),
+  url("../font/proxima_nova_regular-webfont.woff2") format("woff2"),
+  url("../font/proxima_nova_regular-webfont.woff") format("woff"),
+  url("../font/proxima_nova_regular-webfont.ttf") format("truetype");
+}
+
+$base-font: "Proxima", Arial, sans-serif;
+$bold-font: "Proxima-bold", Arial, sans-serif;
 
 body {
   color: #000000;
   font-family: $base-font;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 20px;
 }
