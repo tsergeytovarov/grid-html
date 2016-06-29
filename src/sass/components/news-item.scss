@@ -3,6 +3,7 @@
   padding-bottom: 25px;
   outline: none;
   color: $black;
+  cursor: pointer;
   text-decoration: none;
 
   align-items: flex-start;
@@ -19,17 +20,23 @@
   &__time {
     padding: 0 3px 3px 5px;
     background-color: #ffffff;
+    transition: color 0.2s ease;
     text-align: center;
     font-family: $bold-font;
     font-size: 14px;
     line-height: 14px;
 
+    will-change: color;
+
     span {
       display: block;
       color: #a1a1a1;
+      transition: color 0.2s ease;
       font-family: Arial, sans-serif;
       font-size: 11px;
       line-height: 11px;
+
+      will-change: color;
     }
   }
 
@@ -43,6 +50,38 @@
   &__text {
     width: 185px;
     margin: 0;
+    transition: color 0.2s ease;
     transform: translateY(-4px);
+
+    will-change: color;
+  }
+
+  &:hover &__text {
+    color: $green;
+    text-decoration: underline;
+  }
+
+  &:hover &__time {
+    color: $green;
+
+    span {
+      color: $green;
+    }
+  }
+
+  &:hover &__picture {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 3px;
+      background-color: rgba(0, 0, 0, 0.2);
+      content: "";
+      box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+    }
   }
 }
