@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="6.031" height="9.156" viewBox="0 0 6.031 9.156">
-  <defs>
-    <style>
-      .cls-1 {
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="Rounded_Rectangle_71_copy_3" data-name="Rounded Rectangle 71 copy 3" class="cls-1" d="M81.116,595.414l3.5,3.474a0.828,0.828,0,0,1,.362.519,0.755,0.755,0,0,1,0,.28,0.828,0.828,0,0,1-.362.519l-3.5,3.474a1.457,1.457,0,0,1-1.651.329,0.884,0.884,0,0,1-.255-1.384l3.073-3.078-3.063-3.07a0.891,0.891,0,0,1,.245-1.392A1.456,1.456,0,0,1,81.116,595.414Z" transform="translate(-78.969 -594.969)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="6.031" height="9.156" viewBox="0 0 6.031 9.156"><defs><style>.cls-1{fill-rule:evenodd}</style></defs><path id="Rounded_Rectangle_71_copy_3" data-name="Rounded Rectangle 71 copy 3" class="cls-1" d="M81.116 595.414l3.5 3.474a.828.828 0 0 1 .362.519.755.755 0 0 1 0 .28.828.828 0 0 1-.362.519l-3.5 3.474a1.457 1.457 0 0 1-1.651.329.884.884 0 0 1-.255-1.384l3.073-3.078-3.063-3.07a.891.891 0 0 1 .245-1.392 1.456 1.456 0 0 1 1.651.329z" transform="translate(-78.969 -594.969)"/></svg>
