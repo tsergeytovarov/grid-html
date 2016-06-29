@@ -8,6 +8,14 @@
   align-items: flex-start;
   justify-content: space-between;
 
+  &:last-child {
+    padding-bottom: 20px;
+  }
+
+  &--more-text {
+    padding-bottom: 15px;
+  }
+
   &__time {
     padding: 0 3px 3px 5px;
     background-color: #ffffff;
