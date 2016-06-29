@@ -9,9 +9,11 @@
   &__title {
     margin: 0;
     margin-bottom: 20px;
-    padding: 0 0 15px;
+    padding: 0 0 11px;
     border-bottom: 1px solid $gray;
+    letter-spacing: 2px;
     font-size: 20px;
+    line-height: 20px;
   }
 
   &__all-link {
@@ -19,12 +21,13 @@
     top: 0;
     right: 0;
     color: #c0c0c0;
+    transition: color 0.3s ease;
     text-decoration: none;
     text-transform: uppercase;
     font-family: $bold-font;
     font-size: 11px;
-    line-height: 22px;
-    transition: color 0.3s ease;
+    line-height: 25px;
+
     will-change: color;
 
     &:hover {
@@ -35,13 +38,14 @@
   &__container {
     position: relative;
 
-    // &::before {
-    //   content: "";
-    //   width: 1px;
-    //   height: 100%;
-    //   background-color: #000000;
-    //   position: absolute;
-    //   left: 10px;
-    // }
+    &::before {
+      position: absolute;
+      left: 20px;
+      z-index: -1;
+      width: 1px;
+      height: 100%;
+      background-color: $gray;
+      content: "";
+    }
   }
 }
