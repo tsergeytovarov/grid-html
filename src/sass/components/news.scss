@@ -2,6 +2,36 @@
   width: 300px;
   margin: 50px auto 0;
 
+  &__section {
+    position: relative;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0 0 15px;
+    border-bottom: 1px solid $gray;
+    font-size: 20px;
+  }
+
+  &__all-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #c0c0c0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $bold-font;
+    font-size: 11px;
+    line-height: 22px;
+    transition: color 0.3s ease;
+    will-change: color;
+
+    &:hover {
+      color: $black;
+    }
+  }
+
   &__container {
     position: relative;
 

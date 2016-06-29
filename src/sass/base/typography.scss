@@ -28,7 +28,7 @@ $base-font: "Proxima", Arial, sans-serif;
 $bold-font: "Proxima-bold", Arial, sans-serif;
 
 body {
-  color: #000000;
+  color: $black;
   font-family: $base-font;
   font-size: 15px;
   font-weight: 400;
