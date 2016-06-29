@@ -48,4 +48,39 @@
       content: "";
     }
   }
+
+  &__before {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    position: relative;
+    padding-left: 50px;
+    color: $black;
+    transition: opacity 0.2s ease;
+    text-decoration: none;
+    font-family: $bold-font;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.2;
+
+    will-change: opacity;
+
+    &::before {
+      position: absolute;
+      top: -3px;
+      left: 8px;
+      width: 21px;
+      height: 21px;
+      border: 1px solid $black;
+      border-radius: 50%;
+      background-image: url("../img/arrow.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      content: "";
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
